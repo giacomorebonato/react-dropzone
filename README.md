@@ -68,6 +68,7 @@ Features
 ========
 
 - `disableClick` - Clicking the `<Dropzone>` brings up the browser file picker. To disable, set to `true`.
+- `maxSize` `minSize` - Optional file size validation (default `Infinity`)
 - `multiple` - To accept only a single file, set this to `false`.
 - `accept` - Filters the file types that are valid. It should have a valid MIME type according to [input element](http://www.w3.org/TR/html-markup/input.file.html), for example:
   * `application/pdf`
